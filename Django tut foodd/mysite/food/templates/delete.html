@@ -1,0 +1,7 @@
+<form method="POST">
+  {% csrf_token %}
+  <label for="">are you sure you wanna delete {{items.item_name}}</label>
+  <button class="btn btn-warning" type="submit">Yes</button>
+  <button class="btn btn-warning" type="submit">Yes</button>
+  <!-- <button type="submit" class="btn btn-danger">Yes</button> -->
+</form>
